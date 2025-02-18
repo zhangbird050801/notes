@@ -1,0 +1,11 @@
+{
+	"nodes":[
+		{"id":"3eb8156a8d79ae1f","type":"file","file":"计算机网络/第三章 传输层.md","x":276,"y":-169,"width":400,"height":400},
+		{"id":"a6fdbce10dacdc34","type":"text","text":"传输层","x":-50,"y":-30,"width":210,"height":61},
+		{"id":"b318fc45873f0c9b","type":"text","text":"计算机网络","x":-300,"y":-200,"width":250,"height":60}
+	],
+	"edges":[
+		{"id":"cb5de1e0b8b4f11a","fromNode":"a6fdbce10dacdc34","fromSide":"right","toNode":"3eb8156a8d79ae1f","toSide":"left"},
+		{"id":"db60b3d55cee0506","fromNode":"b318fc45873f0c9b","fromSide":"right","toNode":"a6fdbce10dacdc34","toSide":"top"}
+	]
+}
