@@ -147,7 +147,7 @@ char c2 = n;       // 错误
 cahr c3 = (char)m; // 正确
 ```
 ## 自动转换类型细节
-byte，short, char 三者可以计算，在计算时首先转换为 int 类型。
+byte，short,  char 三者可以计算，在计算时首先转换为 int 类型。
 ```java
 byte b2 = 1;
 short s1 = 1;
