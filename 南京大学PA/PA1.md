@@ -52,7 +52,7 @@ time make ARCH=native mainargs=k run
 
 
 ## ISA 指令集架构
-> In [computer science](https://en.wikipedia.org/wiki/Computer_science "Computer science"), an **instruction set architecture** (**ISA**) is a part of the [abstract model](https://en.wikipedia.org/wiki/Abstract_model) of a [computer](https://en.wikipedia.org/wiki/Computer "Computer"), which generally defines how software controls the CPU.[[1]](https://en.wikipedia.org/wiki/Instruction_set_architecture#cite_note-1) A device that executes instructions described by that ISA, such as a [central processing unit](https://en.wikipedia.org/wiki/Central_processing_unit "Central processing unit") (CPU), is called an _implementation_.
+> In [computer science](https://en.wikipedia.org/wiki/Computer_science "Computer science"), an **instruction set architecture** (**ISA**) is a part of the [abstract model](https://en.wikipedia.org/wiki/Abstract_model) of a [computer](https://en.wikipedia.org/wiki/Computer "Computer"), which generally defines how software controls the CPU.[[好多不会的东西！]](https://en.wikipedia.org/wiki/Instruction_set_architecture#cite_note-1) A device that executes instructions described by that ISA, such as a [central processing unit](https://en.wikipedia.org/wiki/Central_processing_unit "Central processing unit") (CPU), is called an _implementation_.
 
 ISA 类似于一种规范：
 如果一个程序要在特定架构的计算机上运行, 那么这个程序和计算机就必须是符合同一套规范才行。
