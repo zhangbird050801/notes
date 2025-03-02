@@ -14,6 +14,9 @@ public interface UserMapper extends BaseMapper<User> {
 }
 ```
 
+`BaseMapper` 实现了
+![|800](https://typora-birdy.oss-cn-guangzhou.aliyuncs.com/20250302173124922.png)
+
 ## 约定
 1. 类名驼峰转下划线作为表名。
 2. 名为 id 的字段会作为主键。
