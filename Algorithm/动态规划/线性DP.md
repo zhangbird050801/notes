@@ -328,9 +328,12 @@ graph LR;
 ```
 <img src="https://typora-birdy.oss-cn-guangzhou.aliyuncs.com/20240317165929.png"  style="zoom:50%;">
 
-如果要删掉第 i 个数，那么前 i - 1 个数得与 b 中前 j 个数相同
-如果要添加一个数，那么最后添加的数应该和 b[j] 相同，添加前 a[1 ~ i] 与 b[1 ~ j - 1] 已经匹配
-如果要修改，应该把 a[i] 改成 b[j]。如果已经相等则不需要修改。前提是 a[1 ~ i - 1] 已经与 b[1 ~ j - 1] 匹配
+如果要删掉第 i 个数，那么前 $i - 1$ 个数得与 b 中前 $j$ 个数相同
+如果要添加一个数，那么最后添加的数应该和 $b[j]$ 相同，添加前 $a[1 \sim i]$ 与 $b[1 \sim j - 1]$ 已经匹配
+![|775](https://typora-birdy.oss-cn-guangzhou.aliyuncs.com/20250302223421137.png)
+
+
+如果要修改，应该把 $a[i]$ 改成 $b[j]$。如果已经相等则不需要修改。前提是 $a[1 \sim i - 1]$ 已经与 $b[1 \sim j - 1]$ 匹配
 $f[i,j]=MIN(f[i-1,j]+1,f[i,j-1]+1,f[i-1,j-1]+1~or~0)$
 ```cpp
 #include<bits/stdc++.h>
