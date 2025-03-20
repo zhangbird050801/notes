@@ -12,4 +12,4 @@ $$
 $$
 ```
 
-![[symbols.pdf]]
+![[LateX.pdf]]
