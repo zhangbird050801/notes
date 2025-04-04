@@ -1,7 +1,5 @@
-.obsidian/
-.obsidian/*
-.obsidian/appearance.json
+.obsidian/workspace
 .obsidian/workspace.json
-.obsidian/graph.json
 .obsidian/workspaces.json
 Excalidraw/
+.trash
