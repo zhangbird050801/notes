@@ -1,4 +1,3 @@
-
 首先就是安装东西前必备的：
 ```shell
 sudo apt update
@@ -26,6 +25,7 @@ systemctl start redis
 ```shell
 redis-server
 ```
+
 这种 Ctrl + C 退出后进程会被关掉，不过可以通过修改配置以及启动时在后面指定配置路径来解决。
 ![|650](https://typora-birdy.oss-cn-guangzhou.aliyuncs.com/20250210220555391.png)
 
@@ -107,5 +107,6 @@ Vscode 提供插件，可以用这个来连接。
 ```shell
 .\redis-cli.exe -h <你的 linux 主机 IP> -p 6379 -a <你在配置文件中设置的 redis 连接密码>
 ```
+
 比如我这个：
 ![|600](https://typora-birdy.oss-cn-guangzhou.aliyuncs.com/20250210221438095.png)
