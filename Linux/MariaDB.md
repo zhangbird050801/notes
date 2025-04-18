@@ -20,3 +20,4 @@ systemctl status mariadb.service
 sudo systemctl start mysqld 
 sudo systemctl status mysqld
 ```
+
