@@ -80,3 +80,18 @@ WHERE e.sid = s.sid
 GROUP BY e.cid
 HAVING AVG(s.gpa) > 3.9;
 ```
+
+## Relational Model & Algebra 
+
+![](https://typora-birdy.oss-cn-guangzhou.aliyuncs.com/20250418151939627.png)
+
+
+![](https://typora-birdy.oss-cn-guangzhou.aliyuncs.com/20250418152101225.png)
+
+[[01-relationalmodel.pdf]]
+
+对于并集、交集和差集操作，列必须相同。
+
+## Database Storage
+核心思想是：数据存储在磁盘上，要将数据转移到内存里才能进行处理。
+![](https://typora-birdy.oss-cn-guangzhou.aliyuncs.com/20250419164659177.png)
