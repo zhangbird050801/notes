@@ -1010,7 +1010,8 @@ th {
     box-shadow: 0 0 10px #222
 }
 
-.cm-float-settings {
+.cm-float-settings,
+.mm-list-icon-bar {
     background: #fff;
     width: 40px;
     height: 40px;
@@ -1025,12 +1026,15 @@ th {
     box-shadow: 0 0 10px #ccc
 }
 
-.theme-dark .cm-float-settings {
+
+.theme-dark .cm-float-settings,
+.theme-dark .mm-list-icon-bar {
     background: #333;
     box-shadow: 0 0 10px #222
 }
 
-.theme-dark .cm-float-settings svg {
+.theme-dark .cm-float-settings svg,
+.theme-dark .mm-list-icon-bar svg {
     fill: #ccc
 }
 
