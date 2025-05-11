@@ -1,3 +1,4 @@
+A }|--|{ B : label
 
 ## 常用选项及其含义
 
@@ -12,3 +13,19 @@
 ## 主要执行步骤 (C 语言)
 <img src="https://typora-birdy.oss-cn-guangzhou.aliyuncs.com/20240921204012.png" style="zoom:50%">
 
+A }|--|{ B : label
+A }|--|{ B : label
+A }|--|{ B : label
+A }|--|{ B : label
+A }|--|{ B : label    CUSTOMER {
+            string name
+            string custNumber
+            string sector
+        }
+
+    CUSTOMER {
+            string name
+            string custNumber
+            string sector
+        }
+A ||--|{ B : label
