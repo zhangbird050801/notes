@@ -3,7 +3,7 @@
   "theme": "moonstone",
   "textFontFamily": "Cascadia Mono,LXGW WenKai GB Screen,汉仪唐美人,新宋体,Noto Serif SC ExtraLight,Californian FB",
   "cssTheme": "Blue Topaz",
-  "baseFontSize": 18,
+  "baseFontSize": 16,
   "baseFontSizeAction": true,
   "interfaceFontFamily": "Cascadia Mono,Consolas,LXGW WenKai GB Screen,汉仪唐美人",
   "monospaceFontFamily": "Consolas,Noto Serif SC ExtraLight",

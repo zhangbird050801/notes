@@ -25,5 +25,6 @@
   "table-extended",
   "obsidian-tasks-plugin",
   "templater-obsidian",
-  "obsidian-zotero-desktop-connector"
+  "obsidian-zotero-desktop-connector",
+  "cubox-sync"
 ]
