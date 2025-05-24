@@ -1,0 +1,213 @@
+/*
+
+This CSS file will be included with your plugin, and
+available in the app when your plugin is enabled.
+
+If your plugin does not need CSS, delete this file.
+
+*/
+
+.modal-footer {
+    display: flex;
+    justify-content: flex-end;
+    padding: 16px;
+    border-top: 1px solid var(--background-modifier-border);
+}
+
+.modal-footer button {
+    margin-left: 8px;
+}
+
+.modal-footer button.mod-cta {
+    background-color: var(--interactive-accent);
+    color: var(--text-on-accent);
+}
+
+/* 变量列表样式优化 */
+.cubox-variables-container {
+    margin: 20px 0;
+    color: var(--text-muted);
+}
+
+.cubox-variables-title {
+    font-weight: 500;
+    margin-bottom: 8px;
+    color: var(--text-normal);
+}
+
+.cubox-variables-list {
+    margin: 0;
+    padding-left: 15px;
+    list-style-type: disc;
+}
+
+.cubox-variables-list li {
+    margin-bottom: 4px;
+    line-height: 1.2;
+}
+
+.highlight-sublist {
+    margin-top: 4px;
+    padding-left: 15px;
+    list-style-type: disc;
+}
+
+.cubox-reference {
+    margin-top: 10px;
+    font-size: 1.0em;
+}
+
+.reference-link {
+    color: var(--text-accent);
+    text-decoration: none;
+}
+
+.reference-link:hover {
+    text-decoration: underline;
+}
+
+/* Modal Dialog Styles */
+.cubox-modal {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.cubox-list-container {
+    flex-grow: 1;
+    overflow-y: auto;
+    padding-top: 20px;
+    padding-right: 10px;
+    overflow-anchor: none;
+    scroll-behavior: auto;
+    height: 100%;
+    max-height: 65vh;
+}
+
+/* Setting item styles for modal dialogs */
+.cubox-list-container .setting-item {
+    position: relative;
+    padding-left: 36px;
+    border-radius: 4px;
+    transition: background-color 0.1s ease;
+    display: flex;
+    align-items: center;
+    min-height: 40px;
+    box-sizing: border-box;
+}
+
+.cubox-list-container .setting-item:hover {
+    background-color: var(--background-modifier-hover);
+}
+
+/* Setting item name styles */
+.cubox-list-container .setting-item-name {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+/* Custom checkbox styles */
+.cubox-list-container .setting-item::before {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border: 1px solid var(--checkbox-border-color, var(--background-modifier-border));
+    border-radius: 3px;
+    background-color: var(--checkbox-color, var(--background-primary));
+    box-sizing: border-box;
+}
+
+/* First child checkbox positioning */
+.cubox-list-container .setting-item:first-child::before {
+    left: 10px;
+    top: 12px;
+}
+
+/* Other items checkbox positioning */
+.cubox-list-container .setting-item:not(:first-child)::before {
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* Selected checkbox state */
+.cubox-list-container .setting-item.is-selected::before {
+    background-color: var(--checkbox-color-checked, var(--interactive-accent));
+    border-color: var(--checkbox-border-color-checked, var(--interactive-accent));
+}
+
+/* Checkmark for selected items */
+.cubox-list-container .setting-item.is-selected::after {
+    content: "";
+    position: absolute;
+    width: 5px;
+    height: 9px;
+    border-right: 2px solid var(--text-on-accent);
+    border-bottom: 2px solid var(--text-on-accent);
+}
+
+/* First child checkmark positioning */
+.cubox-list-container .setting-item:first-child.is-selected::after {
+    left: 14px;
+    top: 13px;
+    transform: rotate(45deg);
+}
+
+/* Other items checkmark positioning */
+.cubox-list-container .setting-item:not(:first-child).is-selected::after {
+    left: 14px;
+    top: 50%;
+    transform: translateY(-60%) rotate(45deg);
+}
+
+/* First item special styling */
+.cubox-list-container .setting-item:first-child {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.cubox-list-container .setting-item:first-child .setting-item-name {
+    margin-top: 0;
+    padding-top: 0;
+    position: relative;
+    top: 6px;
+    font-weight: bold;
+}
+
+/* Disabled state styling */
+.cubox-list-container .setting-item.is-disabled {
+    opacity: 0.3;
+    pointer-events: none;
+}
+
+.cubox-list-container .setting-item.is-disabled::before {
+    background-color: var(--background-primary);
+    border-color: var(--background-modifier-border);
+}
+
+.cubox-list-container .setting-item.is-disabled::after {
+    content: "";
+    position: absolute;
+    width: 8px;
+    height: 2px;
+    background-color: var(--text-muted);
+    left: 14px;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+}
+
+/* Consistent line height for all items */
+.cubox-list-container .setting-item-heading,
+.cubox-list-container .setting-item-name {
+    line-height: normal;
+    margin: auto 0;
+}
+
+/* Override first row bold font for type modal */
+.type-list-container .setting-item:first-child .setting-item-name {
+    font-weight: normal;
+}
