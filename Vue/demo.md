@@ -31,3 +31,31 @@
   box-shadow: 0 2rpx 8rpx rgba(0, 0, 0, 0.1);
 }
 ```
+
+```
+<SectionCard>  
+      <swiper :indicator-dots="true" :autoplay="true" :interval="5000" :duration="1000">  
+        <SwiperItem v-for="(item, index) in items" :key="index">  
+          <view class="swiper-item">  
+            <text>{{ item }}:{{ index }}</text>  
+          </view>  
+        </SwiperItem>  
+      </swiper>  
+    </SectionCard>  
+    
+const items = ref(['页面 1', '页面 2', '页面 3']);  
+
+swiper {  
+  height: 200px;  
+}  
+  
+.swiper-item {  
+  display: flex;  
+  justify-content: center;  
+  align-items: center;  
+  height: 100%;  
+  font-size: 18px;  
+  color: #333;  
+  background-color: #dcdcdc;  
+}  
+```
