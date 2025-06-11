@@ -26,5 +26,6 @@
   "obsidian-tasks-plugin",
   "templater-obsidian",
   "obsidian-zotero-desktop-connector",
-  "cubox-sync"
+  "cubox-sync",
+  "remotely-save"
 ]
