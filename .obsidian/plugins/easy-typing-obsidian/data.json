@@ -60,5 +60,6 @@
   "PuncRectify": false,
   "FixMacOSContextMenu": false,
   "TryFixMSIME": false,
+  "CollapsePersistentEnter": false,
   "EnterTwice": false
 }
