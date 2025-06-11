@@ -1,15 +1,17 @@
 {
-  "showLineNumber": false,
-  "spellcheck": true,
-  "strictLineBreaks": false,
-  "promptDelete": false,
-  "focusNewTab": true,
-  "alwaysUpdateLinks": true,
-  "showInlineTitle": false,
-  "pdfExportSettings": {
-    "pageSize": "A3",
-    "landscape": false,
-    "margin": "0",
-    "downscalePercent": 100
-  }
+	"showLineNumber": false,
+	"spellcheck": true,
+	"strictLineBreaks": false,
+	"promptDelete": false,
+	"focusNewTab": true,
+	"alwaysUpdateLinks": true,
+	"showInlineTitle": false,
+	"pdfExportSettings": {
+		"includeName": true,
+		"pageSize": "A3",
+		"landscape": false,
+		"margin": "0",
+		"downscalePercent": 100
+	},
+	"attachmentFolderPath": "attachments"
 }
